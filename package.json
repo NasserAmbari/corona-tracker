@@ -1,0 +1,45 @@
+{
+  "name": "corona-apps",
+  "version": "1.0.0",
+  "description": "Apps that tracking Corona Virus",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "webpack-dev-server",
+    "build": "webpack --config webpack.config.js --mode production"
+  },
+  "author": "nssr.mbr@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-regular-svg-icons": "^5.14.0",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "antd": "^4.7.3",
+    "axios": "^1.7.2",
+    "d3-shape": "^2.0.0",
+    "downshift": "^6.0.6",
+    "leaflet": "^1.7.1",
+    "react": "^16.13.1",
+    "react-countup": "^4.3.3",
+    "react-dom": "^16.13.1",
+    "react-geolocated": "^3.0.1",
+    "react-leaflet": "^2.7.0",
+    "react-router-dom": "^5.2.0",
+    "recharts": "^2.0.3",
+    "styled-components": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-styled-components": "^1.11.1",
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.1.0",
+    "html-webpack-plugin": "^4.4.1",
+    "style-loader": "^1.2.1",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
